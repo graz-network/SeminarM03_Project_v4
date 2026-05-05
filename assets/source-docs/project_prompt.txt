@@ -1,0 +1,24 @@
+prompts utilisés:
+- referee report
+- paper summary
+- literature review matrix
+- research gap finder
+- thesis chapter architect
+- identification stress test
+- robustness check generator
+- seminar discussion notes
+- abstract rewriter
+- introduction doctor
+- methods explainer
+- referee response letter
+- journal fit analyzer
+- conference proposal builder
+- reading note generator
+- pdf annotation
+
+Ma demande:
+
+Matériel:
+pdf from  source
+pdf in attachment
+last pdf uploaded
