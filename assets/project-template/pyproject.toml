@@ -1,0 +1,42 @@
+[build-system]
+# Outils nécessaires pour construire/installler le projet
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Métadonnées du projet
+name = "meco-replication"
+version = "0.1.0"
+description = "Python replication pipeline for the MECO M03 group project"
+readme = "README.md"
+requires-python = ">=3.10"
+
+# Dépendances principales pour exécuter le projet
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "statsmodels>=0.14",
+  "matplotlib>=3.8",
+  "pyreadstat>=1.2",
+  "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+# Dépendances optionnelles pour le développement et les tests
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.setuptools]
+# Le code source du package est dans src/
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+# Chercher automatiquement les packages dans src/
+where = ["src"]
+
+[tool.pytest.ini_options]
+# Configuration pytest
+pythonpath = [".", "src"]
+testpaths = ["tests"]

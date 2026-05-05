@@ -1,0 +1,17 @@
+# Bash
+# python -m pip install -r requirements.txt
+
+# Core data stack
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+statsmodels>=0.14
+matplotlib>=3.8
+rdrobust
+statsmodels
+
+# Read Stata .dta files
+pyreadstat>=1.2
+
+# Excel export support (used by TableA1)
+openpyxl>=3.1
